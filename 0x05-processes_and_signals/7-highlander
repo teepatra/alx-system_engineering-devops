@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# script that display the one string indefinitely with sleep 2 and iterate another string
+
+count=0
+while [ $count -le 3 ]
+do
+	trap "echo I am invincible!!!" SIGTERM
+	echo "To infinity and beyond"
+	sleep 2
+done
