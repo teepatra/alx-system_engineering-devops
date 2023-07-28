@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Bash script that displays a list of currently running processes.
+
+ps auxf
+
+# To dispaly the process hierarchy using pstree
+
+pstree
